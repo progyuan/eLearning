@@ -1,0 +1,68 @@
+/*style for carousel*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 900px;
+    height: 350px;
+    margin: auto;
+}
+/*stle for affix*/
+body {
+    position: relative;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+#Home {background-color: #288a08;}
+#Home > div {padding-top:50px; color: #fff; background-color: #288a08;}
+#courseSection > .well {color: #fff; background-color: #673ab7;}
+#courseSection {padding-top:70px;color: #fff; background-color: #673ab7;}
+#aboutUsSection > .well {color: #fff; background-color: #288a08;}
+#aboutUsSection {padding-top:70px;color: #fff; background-color: #288a08;}
+#aboutUsSection h2, #section3 h2 > small {text-align: center; color: #fff}
+
+/* Style for modal */
+.modal-header, h4, .close {
+    background-color: #288a08;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-body button {
+  background-color: #288a08;
+}
+
+/*change design in btn file*/
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  background-color: #1E88E5;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}

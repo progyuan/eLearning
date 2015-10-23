@@ -1,0 +1,20 @@
+.tab-pane {color: #000; background-color: #fff;}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: #fcd900;
+}
+
+.nav-pills > li.active > a:hover {
+    background-color: #efcb00;
+    color:black;
+}
+
+.jumbotron {
+    padding: 3em 5em;
+    padding-top: 5em;
+    min-height: 200px;
+    background-color: #288a08 ;
+    color:#fff ;
+}
